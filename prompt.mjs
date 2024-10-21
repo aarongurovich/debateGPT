@@ -16,3 +16,4 @@ const object1 = completion.choices[0].message;
 
 let answer = object1.content;
 console.log(answer);
+
