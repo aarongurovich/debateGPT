@@ -1,8 +1,7 @@
 import { AssemblyAI } from 'assemblyai'
-const result = dotenv.config();
-console.log("Hi" + result.parced);
-const API_KEY = ASSEMBLYAI_API_KEY; 
-console.log(API_KEY);
+//const result = dotenv.config();
+//console.log(result.parced);
+const API_KEY = "f6cfe0309246405b8466c6b75d2b1e55"; 
 
 const client = new AssemblyAI({
   apiKey: API_KEY//my key rn
