@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "assemblyai": "^4.7.1",
+    "dotenv": "^16.4.5",
+    "openai": "^4.68.1"
+  }
+}
