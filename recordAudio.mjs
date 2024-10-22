@@ -1,4 +1,3 @@
-export let AUDIO_URL;
 const startButton = document.getElementById('start');
       const stopButton = document.getElementById('stop');
       const playButton = document.getElementById('play');
@@ -34,7 +33,6 @@ const startButton = document.getElementById('start');
                const blobObj = new Blob(audioChunks, { type: 'audio/webm' });
                const audioUrl = URL.createObjectURL(blobObj);
                const audio = new Audio(audioUrl);
-               AUDIO_URL = audioUrl;
                audio.play();
                output.innerHTML = 'Playing the recorded audio!';
             });
